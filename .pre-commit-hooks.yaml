@@ -1,0 +1,5 @@
+- id: pytest
+  name: Pytest
+  description: This hook runs Pytest on ./tests
+  entry: pre_commit_hooks/pytest.sh
+  language: script
